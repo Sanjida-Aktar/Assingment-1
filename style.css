@@ -84,7 +84,7 @@
 }
 #notes{
     text-align: center;
-    margin: 0 100px;
+    margin: 0 80px;
 }
 .heading h1{
     font-size: 44px;
@@ -98,7 +98,7 @@
 }
 #card {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 24px;
     margin-bottom: 80px;
 }
@@ -191,4 +191,39 @@
     padding-bottom: 24px;
     /* padding-bottom: 24px; */
  }
- 
+  /* footer section  */
+  #footer-section{
+    margin: 0 80px;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-bottom: 80px;
+    background-color: #001931;
+  }
+  #footer-conterinar{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 120px 0px 80px 0px;
+
+  }
+  .link p{
+    font-size: 20px;
+    color: white;
+    line-height: 24px;
+    padding-bottom: 16px;
+  }
+  .social-icon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    width: 5px;
+    font-size: 24px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    border: none;
+    border-radius: 50%;
+  }
