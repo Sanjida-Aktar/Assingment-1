@@ -128,10 +128,40 @@
     color: #627382;
     line-height: 20px;
 }
+ /* brain section  */
 
 #bran-section{
     margin: 0px 80px;
+    margin-bottom: 80px;
 }
 #bran-contener{
     display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+}
+#heading-section .para{
+    font-size: 16px;
+    line-height: 20px;
+    color: #469165;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+}
+#heading-section h1{
+    font-size: 48px;
+    color: #001931;
+    padding-bottom: 16px;
+    text-transform: capitalize;
+}
+#heading-section p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    padding-bottom: 40px;
+    margin-right: 150px;
+}
+.icon-txt{
+    font-size: 16px;
+    padding-bottom: 16px;
+    color: #001931;
 }
