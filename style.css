@@ -128,3 +128,10 @@
     color: #627382;
     line-height: 20px;
 }
+
+#bran-section{
+    margin: 0px 80px;
+}
+#bran-contener{
+    display: flex;
+}
