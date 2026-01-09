@@ -43,5 +43,88 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#Banner-heading h4{
+    display: inline-block;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+    background-color: white;
+    color: #469165;
+    border: none;
+    border-radius: 100px;
+}
+#Banner-heading h1{
+    font-size: 72px;
+    line-height: 70px;
+    text-transform: capitalize;
+    color: white;
+    padding-bottom: 16px;
+}
+#Banner-heading p{
+    font-size: 18px;
+    color: white;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+#button .button{
+    border: 1px solid white;
+    background-color: transparent;
+    margin: 16px;
+}
 
+/*  Notes Section */
+#Notes-Section{
+    padding-top: 80px;
+  
+}
+#notes{
+    text-align: center;
+    margin: 0 100px;
+}
+.heading h1{
+    font-size: 48px;
+    padding-bottom: 25px;
+    text-transform: capitalize;
+}
+.heading p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+#card {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin-bottom: 80px;
+}
+.card-box{
+    box-shadow: 5px 5px 10px #627382;
+        padding: 30px 24px;
+        border-radius: 8px;
+
+
+}
+.icon-bd{
+    background-color: #F95555;
+    border: none;
+    border-radius: 50%;
+    padding: 12px;
+    margin-bottom: 16px;
+    box-shadow: 0px 0px 5px #627382fe;
+}
+.card-box h3{
+    font-size: 20px;
+    font-weight: 400px;
+    color: #001931;
+    padding-bottom: 16px;
+    text-transform: capitalize;
+}
+.card-box p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
 }
